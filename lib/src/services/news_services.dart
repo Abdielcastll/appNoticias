@@ -27,7 +27,6 @@ class NewsServices with ChangeNotifier {
   Map<String, List<Article>> categoryArticles = {};
 
   NewsServices() {
-    
     this.getTopHeadlines();
 
     categories.forEach((item) {
